@@ -1,50 +1,84 @@
-# Welcome to your Expo app 👋
+# ⚡️ Todo — React Native + Convex Todo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek and modern **Todo App** built with **Expo (React Native)** and **Convex** backend.
+It helps you stay productive with smooth UI, persistent storage, progress tracking, and customizable preferences like **Dark Mode**, **Notifications**, and **Auto Sync**.
 
-## Get started
+## 📱 Preview
 
-1. Install dependencies
+| 🏠 Home Screens                                                                | ⚙️ Settings Screens                                                                        |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| ![Home Empty](./preview/1_preview.jpg) ![Home Filled](./preview/2_preview.jpg) | ![Settings Main](./preview/3_preview.jpg) ![Settings Preferences](./preview/4_preview.jpg) |
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 Features
 
-   ```bash
-   npx expo start
-   ```
+✅ **Add, Edit, and Delete Todos**
+✅ **Mark tasks as completed**
+✅ **Progress tracking (percentage and count)**
+✅ **Persistent storage using Convex backend**
+✅ **Dark Mode support**
+✅ **Notification toggle**
+✅ **Auto Sync toggle**
+✅ **Reset App (Danger Zone)**
+✅ **Smooth and responsive UI with Linear Gradients**
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧠 Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Layer          | Technology                                          |
+| -------------- | --------------------------------------------------- |
+| **Frontend**   | [Expo](https://expo.dev/), React Native, TypeScript |
+| **Backend**    | [Convex](https://convex.dev)                        |
+| **Storage**    | AsyncStorage (local) + Convex DB (remote)           |
+| **UI Styling** | React Native + LinearGradient                       |
+| **Icons**      | Ionicons                                            |
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/TheGauravsahu/todo-app.git
+cd todo-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2️⃣ Install Dependencies
 
-## Learn more
+```bash
+npm install
+# or
+pnpm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3️⃣ Set Up Convex
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Go to [Convex.dev](https://convex.dev)
+2. Create a new project
+3. Copy your Convex deployment URL
+4. Add it to your `.env` file:
 
-## Join the community
+   ```env
+   EXPO_PUBLIC_CONVEX_URL=https://<your-convex-url>
+   ```
 
-Join our community of developers creating universal apps.
+### 4️⃣ Run the App
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+pnpm expo start
+```
+
+## 🌗 Settings Overview
+
+- **Dark Mode** → Toggle app theme
+- **Notification**
+- **Auto Sync**
+- **Reset App** → Clears all stored data
+
+## 💙 Author
+
+**Gaurav Sahu** |
+🔗 [GitHub](https://github.com/TheGauravsahu)
