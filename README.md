@@ -7,9 +7,19 @@ It helps you stay productive with smooth UI, persistent storage, progress tracki
 
 ## 📱 Preview
 
-| 🏠 Home Screens                                                                                   | ⚙️ Settings Screens                                                                               |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| <img src="./preview/1_preview.jpg" width="200"/> <img src="./preview/2_preview.jpg" width="200"/> | <img src="./preview/3_preview.jpg" width="200"/> <img src="./preview/4_preview.jpg" width="200"/> |
+### 🏠 Home Screens
+
+<p align="center">
+  <img src="./preview/1_preview.jpg" width="220" style="margin-right: 10px;"/>
+  <img src="./preview/2_preview.jpg" width="220"/>
+</p>
+
+### ⚙️ Settings Screens
+
+<p align="center">
+  <img src="./preview/3_preview.jpg" width="220" style="margin-right: 10px;"/>
+  <img src="./preview/4_preview.jpg" width="220"/>
+</p>
 
 ---
 
