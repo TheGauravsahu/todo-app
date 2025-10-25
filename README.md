@@ -3,11 +3,13 @@
 A sleek and modern **Todo App** built with **Expo (React Native)** and **Convex** backend.
 It helps you stay productive with smooth UI, persistent storage, progress tracking, and customizable preferences like **Dark Mode**, **Notifications**, and **Auto Sync**.
 
+---
+
 ## 📱 Preview
 
-| 🏠 Home Screens                                                                | ⚙️ Settings Screens                                                                        |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| ![Home Empty](./preview/1_preview.jpg) ![Home Filled](./preview/2_preview.jpg) | ![Settings Main](./preview/3_preview.jpg) ![Settings Preferences](./preview/4_preview.jpg) |
+| 🏠 Home Screens                                                                                   | ⚙️ Settings Screens                                                                               |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| <img src="./preview/1_preview.jpg" width="200"/> <img src="./preview/2_preview.jpg" width="200"/> | <img src="./preview/3_preview.jpg" width="200"/> <img src="./preview/4_preview.jpg" width="200"/> |
 
 ---
 
